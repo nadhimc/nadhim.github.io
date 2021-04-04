@@ -57,6 +57,11 @@
           color: white;
           font-weight: 600;
           font-size: 14px;
+          transition: 0.3s;
+        }
+
+        .mybtn:hover{
+          transform: scale(1.05);
         }
 
         .curiculumdown{
@@ -97,8 +102,16 @@
     <title>Manajemen Komunikasi Unpad</title>
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark myprimary">
+    <nav class="navbar navbar-expand-lg navbar-dark myprimary" style="opacity: 0;">
+      <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="logo.png" style="height: 70px;" class="d-sm-inline-block d-none align-top" alt="">
+              <span class="d-sm-inline d-none" style="font-family: Myriad Pro; font-weight: 600; font-size: 22px;">COMMUNICATION MANAGEMENT</span>
+              <span class="d-sm-none d-inline" style="font-family: Myriad Pro; font-weight: 600; font-size: 14px;">COMMUNICATION MANAGEMENT</span>
+          </a>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark myprimary fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="logo.png" style="height: 70px;" class="d-sm-inline-block d-none align-top" alt="">
@@ -124,6 +137,55 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link myfont" href="#">Our Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link myfont d-none d-lg-inline">
+                  <svg version="1.1" id="fi_622669" xmlns="http://www.w3.org/2000/svg" style="height:14px; fill:#ffffff80; margin-top: 6px" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512.005 512.005;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667
+                        S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6
+                        c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z
+                         M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z"></path>
+                    </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  </svg></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link myfont d-flex align-items-stretch" href="#">
+                  <svg id="fi_3013975" enable-background="new 0 0 512 512" height="18" viewBox="0 0 512 512" width="18" xmlns="http://www.w3.org/2000/svg"><g><path d="m495.484 239.484h-470.484c-9.122 0-16.516 7.395-16.516 16.516v140.817c0 9.122 7.395 16.516 16.516 16.516h470.484l16.516-8.688v-148.645c0-9.122-7.395-16.516-16.516-16.516z" fill="#f2f2f6"></path><path d="m16.516 355.097v-107.597l-16.516 8.5v148.645c0 9.122 7.395 16.516 16.516 16.516h478.968c9.121 0 16.516-7.395 16.516-16.516h-445.935c-27.365 0-49.549-22.183-49.549-49.548z" fill="#e1e1e6"></path><path d="m495.484 90.839h-478.968l-8.516 16.516v130.645l8.516 18h495.484v-148.645c0-9.122-7.395-16.516-16.516-16.516z" fill="#db4655"></path><path d="m0 107.355v148.645h16.516v-165.161c-9.121 0-16.516 7.394-16.516 16.516z" fill="#bd4150"></path></g></svg>
+                  <span class="d-inline d-lg-none ml-2">Bahasa</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -690,16 +752,16 @@
       <div class="container px-2">
         <div class="row mx-0">
           <div class="col-12 col-md-8">
-            <h4 class="mt-4 text-white" style="font: normal normal 900 26px/44px Source Sans Pro;">Related Links</h4>
+            <h4 class="mt-4 text-white" style="font: normal normal 600 26px/44px Source Sans Pro;">Related Links</h4>
             <div class="d-flex">
-              <ul style="font: normal normal 200 24px/44px Source Sans Pro;" class="text-white pl-0">
+              <ul style="font: normal normal 200 19px/36px Source Sans Pro;" class="text-white pl-0">
                 <li style="list-style: none;">Repository</li>
                 <li style="list-style: none;">Library</li>
                 <li style="list-style: none;">Paus ID</li>
                 <li style="list-style: none;">Scholarship</li>
                 <li style="list-style: none;">E-Learning</li>
               </ul>
-              <ul style="font: normal normal 200 24px/44px Source Sans Pro;" class="text-white ">
+              <ul style="font: normal normal 200 19px/36px Source Sans Pro;" class="text-white ml-md-5">
                 <li style="list-style: none;">Student Affairs</li>
                 <li style="list-style: none;">Virtual Lab</li>
                 <li style="list-style: none;">Universitas Padjadjaran</li>
@@ -709,8 +771,8 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <h4 class="mt-4 text-white" style="font: normal normal 900 26px/44px Source Sans Pro;">Contact Us</h4>
-            <ul style="font: normal normal 200 24px/44px Source Sans Pro;" class="text-white pl-0">
+            <h4 class="mt-4 text-white" style="font: normal normal 600 26px/44px Source Sans Pro;">Contact Us</h4>
+            <ul style="font: normal normal 200 19px/45px Source Sans Pro;" class="text-white pl-0">
               <li class="d-flex align-items-start" style="list-style: none;">
                 <svg class="mt-1" style="height: 32px;" version="1.1" id="fi_646094" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                   <g>
